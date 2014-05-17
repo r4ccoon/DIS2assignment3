@@ -109,7 +109,8 @@ public class Widget {
     		w.handleMousePressed(e);
     	}
 
-        if(checkCollision(e.getPosition().getX(), e.getPosition().getY())) {
+        if(checkCollision(e.getPosition().getX(), e.getPosition().getY())) 
+        {
         	isFocused = true;
         	
         	for (MouseEventHandler hl : listeners){
